@@ -6,7 +6,7 @@
 .contact-content {
     width: 100%;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 6rem auto 0;
     padding: 2rem;
 }
 
@@ -182,17 +182,44 @@
     transform-origin: left;
 }
 
-@media (max-width: 768px) {
+/* Mobile styles */
+@media screen and (max-width: 768px) {
     .contact-content {
         padding: 1rem;
+        margin-top: 4rem;
+    }
+
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-subtitle {
+        font-size: 0.9rem;
     }
 
     .contact-form {
-        padding: 2rem 1rem;
+        padding: 1.5rem;
+    }
+
+    .input-wrapper input,
+    .input-wrapper textarea {
+        font-size: 0.9rem;
+    }
+
+    .input-wrapper label {
+        font-size: 0.8rem;
+    }
+
+    .submit-btn {
+        padding: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .social-links {
-        flex-direction: column;
         gap: 1rem;
+    }
+
+    .social-link {
+        font-size: 0.8rem;
     }
 }

@@ -31,8 +31,8 @@
 
 .about-section {
     max-width: 800px;
-    margin: 6rem auto;
-    padding: 2rem;
+    margin: 6rem auto 0;
+    padding: 4rem;
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -111,5 +111,44 @@
     
     .philosophy-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-section {
+        padding: 2rem 1rem;
+        margin-top: 4rem;
+    }
+
+    .about-content {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .manifesto-section {
+        padding: 2rem 1rem;
+    }
+
+    .manifesto-text {
+        font-size: 1.2rem;
+        line-height: 1.6;
+    }
+
+    .philosophy-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+    .philosophy-item {
+        padding: 1.5rem;
+    }
+
+    .philosophy-title {
+        font-size: 1.2rem;
+    }
+
+    .philosophy-description {
+        font-size: 0.9rem;
     }
 }
