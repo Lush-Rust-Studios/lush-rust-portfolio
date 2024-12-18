@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT | LUSH RUST</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    <main>
+        <div class="container contact-container">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.html" class="hover-reveal">home</a></li>
+                    <li><a href="works.html" class="hover-reveal">works</a></li>
+                    <li><a href="studio.html" class="hover-reveal">studio</a></li>
+                </ul>
+            </nav>
+
+            <div class="contact-content">
+                <div class="contact-header">
+                    <h1 class="glitch-text">TRANSMIT</h1>
+                    <p class="contact-subtitle">Enter the void, leave a message</p>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">IDENTITY</label>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">FREQUENCY (EMAIL)</label>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-wrapper">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">TRANSMISSION</label>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">TRANSMIT</span>
+                        <span class="btn-glitch"></span>
+                    </button>
+                </form>
+
+                <div class="contact-alternative">
+                    <p class="alt-text">Alternative Frequencies</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">TWITTER</a>
+                        <a href="#" class="social-link">INSTAGRAM</a>
+                        <a href="#" class="social-link">LINKEDIN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
+    </main>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
